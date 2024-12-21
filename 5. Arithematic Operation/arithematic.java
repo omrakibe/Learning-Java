@@ -38,5 +38,8 @@ class arithematic {
         System.out.println(res1);
         System.out.println(res2);
 
+        boolean res3 = !res2; //Not operator
+        System.out.println(res3);
+
     }
 }
