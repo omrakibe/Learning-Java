@@ -15,12 +15,28 @@ class arithematic {
         int inc1 = num2++;
         System.out.println(inc1);
 
+        System.out.println("");
 
         //Relational Operators
+        System.out.println("Realtional Operators: ");
          int x = 2;
          int y = 2;
          boolean res = x != y;
          System.out.println(res);
+
+        System.out.println("");
+        
+        //Logical operators
+        System.out.println("Logical Operators: ");
+
+        int a = 20;
+        int b = 10;
+        int c = 25;
+        int d = 30;
+        boolean res1 = a > b && c > d;
+        boolean res2 = a > b || c > d;
+        System.out.println(res1);
+        System.out.println(res2);
 
     }
 }
