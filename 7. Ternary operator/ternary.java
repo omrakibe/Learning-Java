@@ -22,7 +22,7 @@ class ternary {
             System.out.println("Num is Odd");
 
         System.out.println(result);
-
+        
 
     }
 }
