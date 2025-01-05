@@ -36,6 +36,6 @@ class java {
         obj2.show();
         obj3.show(); 
 
-        mobile.show1(obj1);
+        mobile.show1(obj1); //need to use class name for calling static method
     }
 }
