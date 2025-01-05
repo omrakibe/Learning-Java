@@ -1,10 +1,14 @@
 class mobile {
     String name;
     int price;
-    static String type;
+    static String type; //static variable
 
     public void show() {
         System.out.println(name + " - " + price + ", " + type);
+    }
+
+    public static void show1(mobile obj) {  //static Method
+        System.out.println(obj.name + " - " + obj.price + ", " + type + " 'line 11'"); 
     }
 }
 
@@ -30,7 +34,8 @@ class java {
 
         obj1.show();
         obj2.show();
-        obj3.show();
+        obj3.show(); 
 
+        mobile.show1(obj1);
     }
 }
